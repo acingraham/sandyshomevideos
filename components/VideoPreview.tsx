@@ -9,11 +9,13 @@ const VideoPreview: FC<VideoPreviewProps> = ({ videoId }) => {
   const [on, setOn] = useState(false)
   return on ? (
     <video controls>
-      <source src={`/videos/${videoId}.mp4`} />
+      <source
+        src={`https://sandyshomevideos.s3.amazonaws.com/videos/${videoId}.mp4`}
+      />
     </video>
   ) : (
     <Image
-      src={`/thumbnails/${videoId}.png`}
+      src={`https://sandyshomevideos.s3.amazonaws.com/thumbnails/${videoId}.png`}
       alt="TODO"
       width="180"
       height="120"
