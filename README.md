@@ -34,13 +34,13 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
 ## Roadmap
-1. Have domain point to vercel
+1. ~~Have domain point to vercel~~
 2. Tag and clip videos
 3. Clicking preview opens modal
 4. Modal updates URL so it's shareable
 5. Grid styling
 6. Improve video card look
-7. Check / Improve fuzzy search
+7. Check / Improve fuzzy search. Consider maintaining order of items.
 8. Improve thumbnail for each video
 9. Clean up input element and overall design of page
 10. Add preview gif on hover
