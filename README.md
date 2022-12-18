@@ -32,3 +32,22 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+## Roadmap
+1. Have domain point to vercel
+2. Tag and clip videos
+3. Clicking preview opens modal
+4. Modal updates URL so it's shareable
+5. Grid styling
+6. Improve video card look
+7. Check / Improve fuzzy search
+8. Improve thumbnail for each video
+9. Clean up input element and overall design of page
+10. Add preview gif on hover
+11. Add preview gif for each video
+12. Cloudfront for serving assets
+13. Potentiall add labels or filtering or sorting. More involved searches I guess.
+14. Confirm serving appropriate size assets for different devices
+15. Analytics
+16. Error handling / reporting
+17. Dashboard
