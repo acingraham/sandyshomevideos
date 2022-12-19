@@ -131,12 +131,26 @@ const options = {
   keys: ['locations', 'persons', 'tags', 'years'],
 }
 
+const allVids: Fuse.FuseResult<Video>[] = vids.map((vid, index) => ({
+  item: vid,
+  refIndex: index,
+  score: 1,
+}))
+
 const fuse = new Fuse(vids, options)
 
 export default function Home() {
   const [searchTerm, setSearchTerm] = useState('')
-  const results = fuse.search(searchTerm)
+  const results = searchTerm ? fuse.search(searchTerm) : allVids
+  // const results = fuse.search(searchTerm)
+  /*
+  const x = fuse
+  const y = fuse.getIndex()
+  debugger
+  */
   console.log({ results })
+
+  console.log('rendering index.tsc')
 
   return (
     <div className={styles.container}>
@@ -148,13 +162,16 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
+        <VideoPreview videoId="1.1" />
         <input
           placeholder="Enter search"
           value={searchTerm}
           onChange={(e) => setSearchTerm(e.target.value)}
         />
 
-        <div className={styles.grid}>
+        {/* <div className={styles.grid}> */}
+        <div className="grid grid-cols-3 gap-8 w-full">
+          <VideoPreview videoId="1.1" />
           {results.map((result) => (
             <VideoPreview videoId={result.item.id} key={result.item.id} />
           ))}
