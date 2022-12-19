@@ -1,6 +1,5 @@
-import { FC, useState } from 'react'
+import { FC } from 'react'
 import Image from 'next/image'
-import ModalVideo from 'react-modal-video'
 
 interface VideoPreviewProps {
   videoId: string

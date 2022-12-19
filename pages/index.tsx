@@ -1,8 +1,8 @@
 import Head from 'next/head'
-import styles from '../styles/Home.module.css'
+import styles from '@styles/Home.module.css'
 import Fuse from 'fuse.js'
 import { useState } from 'react'
-import VideoPreview from '../components/VideoPreview'
+import VideoPreview from '@components/VideoPreview'
 import ModalVideo from 'react-modal-video'
 /*
 
@@ -161,7 +161,6 @@ export default function Home() {
           onChange={(e) => setSearchTerm(e.target.value)}
         />
 
-        {/* <div className={styles.grid}> */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3 w-full">
           {results.map((result) => (
             <VideoPreview
@@ -177,19 +176,6 @@ export default function Home() {
           url={`https://sandyshomevideos.s3.amazonaws.com/videos/${videoId}.mp4`}
           onClose={() => setVideoId('')}
         />
-        {/*
-        <div className={styles.grid}>
-          <video controls>
-            <source src="/videos/1988 - Erin & Andrew Play Piano, Feathers, Erin Waterfront, Erin Swim Meet.mp4" />
-          </video>
-          <video controls>
-            <source src="/videos/1989-11-21 - Necker Island2.mp4" />
-          </video>
-          <video controls>
-            <source src="/videos/1995 - Maine '95, Babs 50th - Fuzzy, Andrew's Chorus Recital.mp4" />
-          </video>
-        </div>
-        */}
       </main>
     </div>
   )
