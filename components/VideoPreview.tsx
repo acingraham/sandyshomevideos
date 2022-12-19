@@ -1,15 +1,17 @@
 import { FC } from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
 
 interface VideoPreviewProps {
   videoId: string
-  // TODO - Make sure you have the right type for onClick
-  onClick: () => void
 }
 
-const VideoPreview: FC<VideoPreviewProps> = ({ videoId, onClick }) => {
+const VideoPreview: FC<VideoPreviewProps> = ({ videoId }) => {
   return (
-    <div className="h-fit relative hover:opacity-70" onClick={onClick}>
+    <Link
+      href={{ query: { videoId } }}
+      className="h-fit relative hover:opacity-70"
+    >
       <Image
         src={`https://sandyshomevideos.s3.amazonaws.com/thumbnails/${videoId}.png`}
         alt="TODO"
@@ -19,7 +21,7 @@ const VideoPreview: FC<VideoPreviewProps> = ({ videoId, onClick }) => {
         }}
         className="!h-auto !relative"
       />
-    </div>
+    </Link>
   )
 }
 

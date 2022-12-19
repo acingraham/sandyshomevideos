@@ -37,17 +37,18 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 1. ~~Have domain point to vercel~~
 2. ~~Grid styling~~
 3. ~~Clicking preview opens modal~~
-4. Modal updates URL so it's shareable
+4. ~~Modal updates URL so it's shareable~~
 5. Tag and clip videos
-6. Improve video card look
-7. Check / Improve fuzzy search. Consider maintaining order of items.
-8. Improve thumbnail for each video
-9. Clean up input element and overall design of page
-10. Add preview gif on hover
-11. Add preview gif for each video
-12. Cloudfront for serving assets
-13. Potentiall add labels or filtering or sorting. More involved searches I guess.
-14. Confirm serving appropriate size assets for different devices
-15. Analytics
-16. Error handling / reporting
-17. Dashboard
+6. Make design of page for desktop and mobile. Include mocks for modal being open.
+7. Improve video card look
+8. Check / Improve fuzzy search. Consider maintaining order of items.
+9. Improve thumbnail for each video
+10. Clean up input element and overall design of page
+11. Add preview gif on hover
+12. Add preview gif for each video
+13. Cloudfront for serving assets
+14. Potentiall add labels or filtering or sorting. More involved searches I guess.
+15. Confirm serving appropriate size assets for different devices
+16. Analytics
+17. Error handling / reporting
+18. Dashboard
