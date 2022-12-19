@@ -52,3 +52,6 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 16. Analytics
 17. Error handling / reporting
 18. Dashboard
+
+## References
+- Inspiration for current design: https://plexx.mallinidesign.com/portfolio/youtube-style/?color_scheme=dark-scheme
