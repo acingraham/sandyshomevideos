@@ -14,7 +14,7 @@ const VideoPreview: FC<VideoPreviewProps> = ({ videoId }) => {
     >
       <Image
         src={`https://sandyshomevideos.s3.amazonaws.com/thumbnails/${videoId}.png`}
-        alt="TODO"
+        alt={`Video ${videoId} Thumbnail`}
         fill
         style={{
           objectFit: 'contain',
