@@ -3,6 +3,7 @@ import styles from '../styles/Home.module.css'
 import Fuse from 'fuse.js'
 import { useState } from 'react'
 import VideoPreview from '../components/VideoPreview'
+import ModalVideo from 'react-modal-video'
 /*
 
       '1988 - Erin & Andrew Play Piano, Feathers, Erin Waterfront, Erin Swim Meet.mp4',
@@ -140,17 +141,9 @@ const allVids: Fuse.FuseResult<Video>[] = vids.map((vid, index) => ({
 const fuse = new Fuse(vids, options)
 
 export default function Home() {
+  const [videoId, setVideoId] = useState('')
   const [searchTerm, setSearchTerm] = useState('')
   const results = searchTerm ? fuse.search(searchTerm) : allVids
-  // const results = fuse.search(searchTerm)
-  /*
-  const x = fuse
-  const y = fuse.getIndex()
-  debugger
-  */
-  console.log({ results })
-
-  console.log('rendering index.tsc')
 
   return (
     <div className={styles.container}>
@@ -171,9 +164,19 @@ export default function Home() {
         {/* <div className={styles.grid}> */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3 w-full">
           {results.map((result) => (
-            <VideoPreview videoId={result.item.id} key={result.item.id} />
+            <VideoPreview
+              videoId={result.item.id}
+              onClick={() => setVideoId(result.item.id)}
+              key={result.item.id}
+            />
           ))}
         </div>
+        <ModalVideo
+          channel="custom"
+          isOpen={!!videoId}
+          url={`https://sandyshomevideos.s3.amazonaws.com/videos/${videoId}.mp4`}
+          onClose={() => setVideoId('')}
+        />
         {/*
         <div className={styles.grid}>
           <video controls>

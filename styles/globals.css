@@ -28,3 +28,4 @@ a {
 @tailwind base; 
 @tailwind components; 
 @tailwind utilities;
+@import 'node_modules/react-modal-video/css/modal-video.css';
