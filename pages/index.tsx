@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Fuse from 'fuse.js'
 import { useState } from 'react'

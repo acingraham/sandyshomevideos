@@ -35,10 +35,10 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 ## Roadmap
 1. ~~Have domain point to vercel~~
-2. Tag and clip videos
+2. Grid styling
 3. Clicking preview opens modal
 4. Modal updates URL so it's shareable
-5. Grid styling
+5. Tag and clip videos
 6. Improve video card look
 7. Check / Improve fuzzy search. Consider maintaining order of items.
 8. Improve thumbnail for each video
