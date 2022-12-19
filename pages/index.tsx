@@ -162,7 +162,6 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <VideoPreview videoId="1.1" />
         <input
           placeholder="Enter search"
           value={searchTerm}
@@ -170,8 +169,7 @@ export default function Home() {
         />
 
         {/* <div className={styles.grid}> */}
-        <div className="grid grid-cols-3 gap-8 w-full">
-          <VideoPreview videoId="1.1" />
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3 w-full">
           {results.map((result) => (
             <VideoPreview videoId={result.item.id} key={result.item.id} />
           ))}
