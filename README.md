@@ -38,20 +38,22 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 2. ~~Grid styling~~
 3. ~~Clicking preview opens modal~~
 4. ~~Modal updates URL so it's shareable~~
-5. Tag and clip videos
-6. Make design of page for desktop and mobile. Include mocks for modal being open.
-7. Improve video card look
-8. Check / Improve fuzzy search. Consider maintaining order of items.
-9. Improve thumbnail for each video
-10. Clean up input element and overall design of page
-11. Add preview gif on hover
-12. Add preview gif for each video
-13. Cloudfront for serving assets
-14. Potentiall add labels or filtering or sorting. More involved searches I guess.
-15. Confirm serving appropriate size assets for different devices
-16. Analytics
-17. Error handling / reporting
-18. Dashboard
+5. Switch to using full videos w/ simple thumbnails
+6. Add thumbnails
+7. Make design of page for desktop and mobile. Include mocks for modal being open.
+8. Improve video card look
+9. Check / Improve fuzzy search. Consider maintaining order of items.
+10. Improve thumbnail for each video
+11. Clean up input element and overall design of page
+12. Add preview gif on hover
+13. Add preview gif for each video
+14. Cloudfront for serving assets
+15. Potentially add labels or filtering or sorting. More involved searches I guess.
+16. Confirm serving appropriate size assets for different devices
+17. Analytics
+18. Error handling / reporting
+19. Dashboard
+20. Tag and clip videos
 
 ## References
 - Inspiration for current design: https://plexx.mallinidesign.com/portfolio/youtube-style/?color_scheme=dark-scheme
