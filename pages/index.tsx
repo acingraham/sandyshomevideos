@@ -36,7 +36,7 @@ export default function Home() {
         <ModalVideo
           channel="custom"
           isOpen={!!videoId}
-          url={`https://sandyshomevideos.s3.amazonaws.com/videos/${videoId}.mp4`}
+          url={`https://sandyshomevideos.s3.amazonaws.com/fullVideos/${videoId}.mp4`}
           onClose={() => router.replace('/', undefined, { shallow: true })}
         />
       </main>
