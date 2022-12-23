@@ -1,13 +1,30 @@
 ## 1988 - Erin & Andrew Play Piano, Feathers, Erin Waterfront, Erin Swim Meet.mp4
-    [1.1] 0:00 - 8:38:71: erin, andrew, sandy, 'piano', 'singing', 'feathers', 'bird'
+    [1.1] 0:00 - 8:38: erin, andrew, sandy, 'piano', 'singing', 'feathers', 'bird'
     [1.2] 8:41 - 9:03: hose, andrew, erin, sandy
-    9:05 - 13:40: feathers, bird, erin, andrew, sandy
-    13:52 - 16:45: erin, andrew, phone, jokes,
-    16:45 - 17:50: erin, sandy, waterfront school, school, 
-    17:50 - 31:51: TODO
+    [1.3] 9:04 - 13:40: feathers, bird, erin, andrew, sandy
+    [1.4] 13:51 - 16:45: erin, andrew, phone, jokes
+    [1.5] 16:50 - 17:50: erin, sandy, waterfront school, school
+    17:50 - 31:51: TODO - Kinda of janky. Might not be salvageable
 
 ## 1988-07 - Aunt Kitty + Erin + Andrew, Erin w. Babs, Andrew Dinosaurs, Pool.mp4
     0 - 2:03:54: TODO
+    [3.1] 0:01 - 3:57: andrew, kitty, erin, luke, sandy, carrie
+    [3.2] 3:57 - 4:47: andrew, erin, sandy, kathy, baby bunnies, bunnies
+    [3.3] 4:47 - 6:43: andrew, erin, sandy, kitty, kathy, wrestling
+    [3.4] 6:44 - 10:15: erin, sandy, bunnies, baby bunnies
+    [3.5] 10:55 - 19:33: andrew, sandy, kathy, kitty, dinosaur hunting
+    [3.6] 19:33 - 29:45: drew, andrew, sandy, erin, carrie, pool, water guns, luke
+    [3.7] 29:45 - 31:28: kathy, andrew, sandy, erin, beach, minnows
+    [3.8] 31:28 - 33:00: andrew, kathy, bandaid
+    [3.9] 33:03 - 41:19: pool, erin, luke, andrew, swimming, diving
+    [3.10] 41:20 - 45:20: erin, andrew
+    [3.11] 45:20 - 57:47: erin, andrew, kathy, sandy, carnival, ferris wheel, merry go round
+    [3.12] 57:58 - 1:01:55: erin, birds, sandy
+    [3.13] 1:01:55 - 1:03:55: erin, sandy, swimming
+    [3.14] 1:03:55 - 1:06:16: sandy, golf, maidstone
+    [3.15] 1:06:16 - 1:06:50: erin, sandy
+    [3.16] 1:06:50 - 1:07:33: golf
+    [3.17] 1:07:33 - : 
 ## 1988-07 Erin's 6th Bday, Pool, E+A+L in Tub, Beach Cookout & Fireworks.mp4
     0 - 37:55: TODO
 ## 1988-12 - Boston Boat Ride, Dory Party, Play, Waterfront Thanksgiving & Xmas, NYC & More.mp4

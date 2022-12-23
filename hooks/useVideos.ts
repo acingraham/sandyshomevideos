@@ -55,6 +55,240 @@ const vids: Video[] = [
   },
   {
     original: {
+      video:
+        '1988 - Erin & Andrew Play Piano, Feathers, Erin Waterfront, Erin Swim Meet.mp4',
+      start: 544,
+    },
+    id: '1.3',
+    length: 276,
+    locations: ['east hampton', 'new york', 'west end road'],
+    persons: ['erin', 'andrew', 'sandy'],
+    tags: ['feathers', 'bird'],
+    years: [1988],
+  },
+  {
+    original: {
+      video:
+        '1988 - Erin & Andrew Play Piano, Feathers, Erin Waterfront, Erin Swim Meet.mp4',
+      start: 831,
+    },
+    id: '1.4',
+    length: 174,
+    locations: ['east hampton', 'new york', 'west end road'],
+    persons: ['erin', 'andrew', 'sandy'],
+    tags: ['phone', 'jokes'],
+    years: [1988],
+  },
+  {
+    original: {
+      video:
+        '1988 - Erin & Andrew Play Piano, Feathers, Erin Waterfront, Erin Swim Meet.mp4',
+      start: 1010,
+    },
+    id: '1.5',
+    length: 60,
+    locations: ['east hampton', 'new york', 'waterfront school'],
+    persons: ['erin', 'sandy'],
+    tags: ['waterfront school'],
+    years: [1988],
+  },
+  {
+    original: {
+      video:
+        '1988-07 - Aunt Kitty + Erin + Andrew, Erin w. Babs, Andrew Dinosaurs, Pool.mp4',
+      start: 1,
+    },
+    id: '3.1',
+    length: 236,
+    locations: ['east hampton', 'new york', 'west end road'],
+    persons: ['erin', 'andrew', 'sandy', 'kitty', 'carrie'],
+    tags: ['breakfast'],
+    years: [1988],
+  },
+  {
+    original: {
+      video:
+        '1988-07 - Aunt Kitty + Erin + Andrew, Erin w. Babs, Andrew Dinosaurs, Pool.mp4',
+      start: 237,
+    },
+    id: '3.2',
+    length: 47,
+    locations: ['east hampton', 'new york', 'west end road'],
+    persons: ['erin', 'andrew', 'sandy', 'kathy'],
+    tags: ['bunnies', 'baby bunnies'],
+    years: [1988],
+  },
+  {
+    original: {
+      video:
+        '1988-07 - Aunt Kitty + Erin + Andrew, Erin w. Babs, Andrew Dinosaurs, Pool.mp4',
+      start: 287,
+    },
+    id: '3.3',
+    length: 113,
+    locations: ['east hampton', 'new york', 'west end road'],
+    persons: ['erin', 'andrew', 'sandy', 'kathy', 'kitty'],
+    tags: ['wrestling'],
+    years: [1988],
+  },
+  {
+    original: {
+      video:
+        '1988-07 - Aunt Kitty + Erin + Andrew, Erin w. Babs, Andrew Dinosaurs, Pool.mp4',
+      start: 404,
+    },
+    id: '3.4',
+    length: 221,
+    locations: ['east hampton', 'new york', 'west end road'],
+    persons: ['erin', 'sandy'],
+    tags: ['bunnies', 'baby bunnies'],
+    years: [1988],
+  },
+  {
+    original: {
+      video:
+        '1988-07 - Aunt Kitty + Erin + Andrew, Erin w. Babs, Andrew Dinosaurs, Pool.mp4',
+      start: 655,
+    },
+    id: '3.5',
+    length: 518,
+    locations: ['east hampton', 'new york', 'west end road'],
+    persons: ['andrew', 'sandy', 'kitty', 'kathy'],
+    tags: ['dinosaur hunting'],
+    years: [1988],
+  },
+  {
+    original: {
+      video:
+        '1988-07 - Aunt Kitty + Erin + Andrew, Erin w. Babs, Andrew Dinosaurs, Pool.mp4',
+      start: 1174,
+    },
+    id: '3.6',
+    length: 609,
+    locations: ['east hampton', 'new york', 'west end road'],
+    persons: ['drew', 'andrew', 'sandy', 'erin', 'carrie', 'luke'],
+    tags: ['pool', 'water guns'],
+    years: [1988],
+  },
+  {
+    original: {
+      video:
+        '1988-07 - Aunt Kitty + Erin + Andrew, Erin w. Babs, Andrew Dinosaurs, Pool.mp4',
+      start: 1785,
+    },
+    id: '3.7',
+    length: 0,
+    locations: ['east hampton', 'new york', 'west end road'],
+    persons: ['kathy', 'andrew', 'sandy', 'erin'],
+    tags: ['beach', 'minnows'],
+    years: [1988],
+  },
+  {
+    original: {
+      video:
+        '1988-07 - Aunt Kitty + Erin + Andrew, Erin w. Babs, Andrew Dinosaurs, Pool.mp4',
+      start: 1983,
+    },
+    id: '3.9',
+    length: 0,
+    locations: ['east hampton', 'new york', 'west end road'],
+    persons: ['erin', 'andrew', 'luke'],
+    tags: ['pool', 'swimming', 'diving'],
+    years: [1988],
+  },
+  {
+    original: {
+      video:
+        '1988-07 - Aunt Kitty + Erin + Andrew, Erin w. Babs, Andrew Dinosaurs, Pool.mp4',
+      start: 2480,
+    },
+    id: '3.10',
+    length: 0,
+    locations: ['east hampton', 'new york', 'west end road'],
+    persons: ['erin', 'andrew'],
+    tags: [],
+    years: [1988],
+  },
+  {
+    original: {
+      video:
+        '1988-07 - Aunt Kitty + Erin + Andrew, Erin w. Babs, Andrew Dinosaurs, Pool.mp4',
+      start: 0,
+    },
+    id: '3.11',
+    length: 0,
+    locations: ['east hampton', 'new york'],
+    persons: ['erin', 'andrew', 'sandy', 'kathy'],
+    tags: ['carnival', 'ferris wheel', 'merry go round'],
+    years: [1988],
+  },
+  {
+    original: {
+      video:
+        '1988-07 - Aunt Kitty + Erin + Andrew, Erin w. Babs, Andrew Dinosaurs, Pool.mp4',
+      start: 0,
+    },
+    id: '3.12',
+    length: 0,
+    locations: ['east hampton', 'new york', 'west end road'],
+    persons: ['erin', 'sandy'],
+    tags: ['birds'],
+    years: [1988],
+  },
+  {
+    original: {
+      video:
+        '1988-07 - Aunt Kitty + Erin + Andrew, Erin w. Babs, Andrew Dinosaurs, Pool.mp4',
+      start: 0,
+    },
+    id: '3.13',
+    length: 0,
+    locations: ['east hampton', 'new york', 'maidstone'],
+    persons: ['erin', 'sandy'],
+    tags: ['swimming', 'swimming competition'],
+    years: [1988],
+  },
+  {
+    original: {
+      video:
+        '1988-07 - Aunt Kitty + Erin + Andrew, Erin w. Babs, Andrew Dinosaurs, Pool.mp4',
+      start: 0,
+    },
+    id: '3.14',
+    length: 0,
+    locations: ['east hampton', 'new york', 'maidstone'],
+    persons: ['sandy'],
+    tags: ['golf', 'driving range'],
+    years: [1988],
+  },
+  {
+    original: {
+      video:
+        '1988-07 - Aunt Kitty + Erin + Andrew, Erin w. Babs, Andrew Dinosaurs, Pool.mp4',
+      start: 0,
+    },
+    id: '3.15',
+    length: 0,
+    locations: ['east hampton', 'new york'],
+    persons: ['erin', 'sandy'],
+    tags: [],
+    years: [1988],
+  },
+  {
+    original: {
+      video:
+        '1988-07 - Aunt Kitty + Erin + Andrew, Erin w. Babs, Andrew Dinosaurs, Pool.mp4',
+      start: 0,
+    },
+    id: '3.16',
+    length: 0,
+    locations: ['east hampton', 'new york', 'maidstone'],
+    persons: [],
+    tags: ['golf', 'driving range'],
+    years: [1988],
+  },
+  {
+    original: {
       video: '1989-11-21 - Necker Island2.mp4',
       start: 0,
     },
