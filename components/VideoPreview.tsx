@@ -13,7 +13,7 @@ const VideoPreview: FC<VideoPreviewProps> = ({ videoId }) => {
       className="h-fit relative hover:opacity-70"
     >
       <Image
-        src={`https://sandyshomevideos.s3.amazonaws.com/thumbnails/${videoId}full.png`}
+        src={`https://sandyshomevideos.s3.amazonaws.com/thumbnails/${videoId}.x.png`}
         alt={`Video ${videoId} Thumbnail`}
         fill
         style={{
