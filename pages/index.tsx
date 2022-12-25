@@ -22,11 +22,13 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
+        {/*
         <input
           placeholder="Enter search"
           value={searchTerm}
           onChange={(e) => setSearchTerm(e.target.value)}
         />
+        */}
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3 w-full">
           {results.map((result) => (
