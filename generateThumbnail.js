@@ -18,7 +18,7 @@ const ffprobe = require('@ffprobe-installer/ffprobe');
 const ThumbnailGenerator = require('video-thumbnail-generator').default;
 
 
-const { readdirSync } = require('fs');
+const { readdirSync, renameSync } = require('fs');
 
 const videoDir = '/Users/andrewingraham/Downloads/EverPresent Video Archive/';
 
@@ -273,15 +273,31 @@ console.log(files);
 console.log(mapNameToId);
 
 
-files.forEach(file => {
+const thumbnailPath  = './public/thumbnails/';
+
+files.forEach(async (file, index) => {
   const tg = new ThumbnailGenerator({
     sourcePath: videoDir + file,
-    thumbnailPath: './public/thumbnails/',
+    thumbnailPath,
   });
 
   // tg.generateGif();
-
-  tg.generateOneByPercent(10);
+  if (index === 17) {
+    // tg.generate();
+    for (let i = 0; i <= 100; i++) {
+      const result = await tg.generateOneByPercent(i);
+      renameSync(thumbnailPath + result, thumbnailPath + result + i + '.png');
+      console.log(result);
+    }
+    /*
+    tg.generateGif({
+      fps: 0.1, //how many frames per second you want in your gif
+      scale: 180, //the smaller the number, the smaller the thumbnail
+      speedMultiple: 40, //this is 4x speed
+      deletePalette: true //to delete the palettefile that was generated to create the gif once gif is created 
+    });
+    */
+  }
 });
 /* 
 const sourceFilename = process.argv[2];
