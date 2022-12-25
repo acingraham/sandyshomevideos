@@ -10,6 +10,7 @@ const VideoPreview: FC<VideoPreviewProps> = ({ videoId }) => {
   return (
     <Link
       href={{ query: { videoId } }}
+      scroll={false}
       className="h-fit relative hover:opacity-70"
     >
       <Image

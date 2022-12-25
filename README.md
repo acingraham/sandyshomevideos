@@ -39,8 +39,8 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 3. ~~Clicking preview opens modal~~
 4. ~~Modal updates URL so it's shareable~~
 5. ~~Switch to using full videos w/ simple thumbnails~~
-6. Add proper thumbnails
-7. Fix autoscroll to top of page when selecting video
+6. ~~Add proper thumbnails~~
+7. ~~Fix autoscroll to top of page when selecting video~~
 8. Improve video card look
 9. Add content (tags, etc.) to support improved video card look
 10. Make design of page for desktop and mobile. Include mocks for modal being open.
