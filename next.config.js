@@ -11,6 +11,16 @@ const nextConfig = {
       },
     ],
   },
-}
+  /*
+  async rewrites() {
+    return [
+      {
+        source: '/amplitude',
+        destination: 'https://api.amplitude.com/',
+      },
+    ];
+  },
+  */
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
