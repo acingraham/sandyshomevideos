@@ -41,21 +41,22 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 5. ~~Switch to using full videos w/ simple thumbnails~~
 6. ~~Add proper thumbnails~~
 7. ~~Fix autoscroll to top of page when selecting video~~
-8. Improve video card look
-9. Add content (tags, etc.) to support improved video card look
-10. Make design of page for desktop and mobile. Include mocks for modal being open.
-11. Check / Improve fuzzy search. Consider maintaining order of items.
-12. Improve thumbnail for each video
-13. Clean up input element and overall design of page
-14. Add preview gif on hover
-15. Add preview gif for each video
-16. Cloudfront for serving assets
-17. Potentially add labels or filtering or sorting. More involved searches I guess.
-18. Confirm serving appropriate size assets for different devices
-19. Analytics
-20. Error handling / reporting
-21. Dashboard
-22. Tag and clip videos
+8. Get user analytics to a good state
+9. Improve video card look
+10. Add content (tags, etc.) to support improved video card look
+11. Make design of page for desktop and mobile. Include mocks for modal being open.
+12. Check / Improve fuzzy search. Consider maintaining order of items.
+13. Improve thumbnail for each video
+14. Clean up input element and overall design of page
+15. Add preview gif on hover
+16. Add preview gif for each video
+17. Cloudfront for serving assets
+18. Potentially add labels or filtering or sorting. More involved searches I guess.
+19. Confirm serving appropriate size assets for different devices
+20. Analytics
+21. Error handling / reporting
+22. Dashboard
+23. Tag and clip videos
 
 ## References
 - Inspiration for current design: https://plexx.mallinidesign.com/portfolio/youtube-style/?color_scheme=dark-scheme
