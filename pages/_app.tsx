@@ -10,6 +10,8 @@ if (process.env.NEXT_PUBLIC_AMP_KEY) {
 }
 
 /*
+// https://fizzog.io/article/User-Engagement-With-Amplitude-And-NEXT_js
+
 let amplitudeClient = new AmplitudeClient()
 
 amplitudeClient.init(`${process.env.NEXT_PUBLIC_AMP_KEY}`, undefined, {

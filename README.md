@@ -41,7 +41,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 5. ~~Switch to using full videos w/ simple thumbnails~~
 6. ~~Add proper thumbnails~~
 7. ~~Fix autoscroll to top of page when selecting video~~
-8. Get user analytics to a good state
+8. ~~Get user analytics to a good state~~
 9. Improve video card look
 10. Add content (tags, etc.) to support improved video card look
 11. Make design of page for desktop and mobile. Include mocks for modal being open.
@@ -57,6 +57,8 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 21. Error handling / reporting
 22. Dashboard
 23. Tag and clip videos
+24. Avoid ad blockers by sending amplitude logs to proxy
 
 ## References
 - Inspiration for current design: https://plexx.mallinidesign.com/portfolio/youtube-style/?color_scheme=dark-scheme
+- Article on avoiding logs getting blocked by ad blockers and such: https://fizzog.io/article/User-Engagement-With-Amplitude-And-NEXT_js
